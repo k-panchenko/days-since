@@ -1,0 +1,7 @@
+{
+  "name": "Days Since",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

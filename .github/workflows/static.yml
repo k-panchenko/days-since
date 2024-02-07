@@ -41,7 +41,7 @@ jobs:
           npm install
           npm install -g @ionic/cli 
       - name: Build
-        run: ionic build --prod
+        run: ionic build --prod -- --base days-since
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

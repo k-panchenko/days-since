@@ -37,9 +37,11 @@ jobs:
           cache: 'npm'
           cache-dependency-path: './'
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install -g @ionic/cli 
       - name: Build
-        run: ionic build
+        run: ionic build --prod
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

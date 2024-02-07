@@ -19,13 +19,16 @@
     "@capacitor/status-bar": "5.0.7",
     "@ionic/react": "^7.0.0",
     "@ionic/react-router": "^7.0.0",
+    "@twa-dev/sdk": "^7.0.0",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+    "eruda": "^3.0.1",
     "ionicons": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^5.3.4",
-    "react-router-dom": "^5.3.4"
+    "react-router-dom": "^5.3.4",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@capacitor/cli": "5.6.0",
@@ -35,6 +38,7 @@
     "@testing-library/user-event": "^14.4.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
+    "@types/uuid": "^9.0.8",
     "@vitejs/plugin-legacy": "^5.0.0",
     "@vitejs/plugin-react": "^4.0.1",
     "cypress": "^13.5.0",
